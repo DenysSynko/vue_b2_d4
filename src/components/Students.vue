@@ -29,7 +29,6 @@
           :class="{ 'bg-primary': isMatched(student) }"
         >
           <td>
-            <!-- Додайте router-link для навігації до сторінки StudentInfo -->
             <router-link :to="'/student-info/' + student._id">{{ student.name }}</router-link>
           </td>
           <td>{{ student.group }}</td>
